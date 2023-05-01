@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/scr.js"></script>
+    <style>
+        [class*="col-"] {
+            padding: 0px;
+            
+            
+        }
+    </style>
+    
+</head>
+    <div class="container">
+        <div class="row bg-light">
+            <div class="col-md-12">
+                <h6 style="text-align: center;">Thiết kế độc đáo | Bảo hành 5 năm | Miễn phí giao hàng</h6>
+            </div>   
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1 offset-md-1">
+            <img src="../img/logo.png" alt="" height="65px" width="70px" >
+        </div>
+          <div class="col-md-8">
+        <nav class="navbar navbar-expand-lg navbar navbar-light " style="background-color: #e3f2fd;">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> THIẾT KẾ & THI CÔNG</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">căn hộ</a>
+                    <a class="dropdown-item" href="#">văn phòng</a>
+                    <a class="dropdown-item" href="#">showrom</a>
+                    <a class="dropdown-item" href="#">nhà phố và biệt thự</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">bàn và ghế</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">bàn làm việc</a>
+                    <a class="dropdown-item" href="#">bàn trà</a>
+                    <a class="dropdown-item" href="#">bàn ăn</a>
+                    <a class="dropdown-item" href="#">bàn tiệc</a>
+                    <a class="dropdown-item" href="#">ghế ăn </a>
+                    <a class="dropdown-item" href="#">ghế dài</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link " href="#">sofa da bò</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">tủ kệ</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link " href="#">gường</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 active">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+              <ul>
+                <li class="nav-item active">
+                  <a class="nav-link " href="#" id="dk">ĐĂNG KÝ</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link " href="#" id="dn">ĐĂNG NHẬP </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        
+    </div>
+    <div class="row">
+      <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5>ĐĂNG KÝ THÀNH VIÊN</h5>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+
+                  <div class="modal-body">
+                      <form class="form-control">
+                          <div class="row">
+                              <div class="col-6 col-sm-3">
+                                  <label for="">tên đăng nhập</label>
+                              </div>
+                              <div class="col-6 col-sm-9">
+                                  <input type="text" class="form-control" placeholder="nhập không cách" id="txtten" name="" id="">
+                              </div>
+                          </div>
+                          <br>
+                          <div class="row">
+                              <div class="col-6 col-sm-3">
+                                  <label for="">Email hoặc số điện thoại</label>
+                              </div>
+                              <div class="col-6 col-sm-3">
+                                  <input type="email" name="" id="txtTen" class="form-control" placeholder="Nhap ho ten">
+                              </div>
+                          </div>
+
+                          <div class="row">
+                              <div class="col-6 col-sm-12">
+                                  <span id="tbTen">*</span>
+                              </div>
+                          </div>
+                          
+                        <div class="form-group">
+                          <label for="txtAnh" class="control-label col-xs-3">Anh dai dien</label>
+                          <div class="col-md-9">
+                              <input type="file" class="form-control" id="txtAnh" accept=".jpg, .jpeg, .png">
+                              <span id="tbFile" class="text-danger">*</span>
+                          </div>
+                      </div>
+                    <div class="row">
+                      <div class="col-sm-6"><input type="button" value="Submit" id="btnSave" class="btn btn-success btn-block"></div>
+                      <div class="col-sm-6"><input type="reset" value="reset" class="btn btn-danger btn-block"></div>
+                  </div>
+                      </form>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+
+
+      <div class="row">
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>TÀI KHOẢN</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+  
+                    <div class="modal-body">
+                        <form class="form-control">
+                            <div class="row">
+                                <div class="col-6 col-sm-3">
+                                    <label for="">tài khoản</label>
+                                </div>
+                                <div class="col-6 col-sm-9">
+                                    <input type="text" class="form-control" placeholder="email hoặc số điện thoại" id="txttaikhoan" name="" id="">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-6 col-sm-3">
+                                    <label for="">mật khẩu</label>
+                                </div>
+                                <div class="col-6 col-sm-3">
+                                    <input type="email" name="" id="txtTen" class="form-control" placeholder="Nhap ho ten">
+                                </div>
+                            </div>
+  
+                            <div class="row">
+                                <div class="col-6 col-sm-12">
+                                    <span id="tbTen">*</span>
+                                </div>
+                            </div>
+                            
+                          <div class="form-group">
+                            <label for="txtAnh" class="control-label col-xs-3">Anh dai dien</label>
+                            <div class="col-md-9">
+                                <input type="file" class="form-control" id="txtAnh" accept=".jpg, .jpeg, .png">
+                                <span id="tbFile" class="text-danger">*</span>
+                            </div>
+                        </div>
+                      <div class="row">
+                        <div class="col-sm-6"><input type="button" value="Submit" id="btnSave" class="btn btn-success btn-block"></div>
+                        <div class="col-sm-6"><input type="reset" value="reset" class="btn btn-danger btn-block"></div>
+                    </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+      <div class="container">
+        <div class="row bg-light">
+            <div class="col-md-12 bg-info text-white">
+                <h4 style="text-align: center;">sản phẩm nổi bật</h4>
+            </div>   
+        </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-start">
+      <div class="col-4"> <img src="../img/10.png" alt="1" height="460px" width="415px"></div>
+      <div class="col-4"> <img src="../img/11.png" alt="2" height="460px" width="415px"></div>
+      <div class="col-4"> <img src="../img/12.png" alt="3" height="460px" width="415px"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row justify-content-start">
+    <div class="col-6"> <img src="../img/13.png" alt="1" height="460px" width="470px"></div>
+    <div class="col-6"> <img src="../img/14.png" alt="2" height="460px" width="470px"></div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row bg-light">
+      <div class="col-md-12 bg-info text-white">
+          <h4 style="text-align: center;">bàn làm việc</h4>
+      </div>   
+  </div>
+</div>
+<div class="container">
+<div class="row justify-content-start">
+<div class="col-4"> <img src="../img/16.png" alt="1" height="460px" width="415px"></div>
+<div class="col-4"> <img src="../img/17.png" alt="2" height="460px" width="415px"></div>
+<div class="col-4"> <img src="../img/18.png" alt="3" height="460px" width="415px"></div>
+</div>
+</div>
+      <div class="container">
+        <div class="row bg-light">
+            <div class="col-md-12 bg-info text-white">
+                <h4 style="text-align: center;">sản phẩm giá tốt</h4>
+            </div>   
+        </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-start">
+      <div class="col-3"> <img src="../img/Screenshot 2023-04-30 090316.png" alt="1" height="290px" width="220px"></div>
+      <div class="col-3"> <img src="../img/2.png" alt="2" height="290px" width="220px"></div>
+      <div class="col-3"> <img src="../img/4.png" alt="3" height="290px" width="220px"></div>
+      <div class="col-3"> <img src="../img/5.png" alt="" height="290px" width="220px"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row justify-content-start">
+    <div class="col-3"> <img src="../img/6.png" alt="1" height="290px" width="220px"></div>
+    <div class="col-3"> <img src="../img/7.png" alt="2" height="290px" width="220px"></div>
+    <div class="col-3"> <img src="../img/8.png" alt="3" height="290px" width="220px"></div>
+    <div class="col-3"> <img src="../img/9.png" alt="" height="290px" width="220px"></div>
+  </div>
+</div>
+    </div>
+<div class="container-fluid">
+  <div class="row justify-content-start">
+    <div class="col-md-1 offset-md-1"> <img src="../img/19.png" alt=""></div>
+    <div class="col-md-7 offset-md-2"><h6>Hỗ trợ / Mua hàng: 0707 179 888</h6></div>
+    </div>
+</div>
+</body>
+</html>
